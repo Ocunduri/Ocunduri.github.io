@@ -1,0 +1,289 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*BOOSTRAP*/
+
+.bg_azul{
+    background-color: #0071bc;
+}
+
+.flotar_derecha{
+    float: right;
+}
+
+.center_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.text_white{
+    color: white;
+}
+
+.text_ddd{
+    color: #ddd;
+}
+
+.text_gray{
+    color: #666666;
+}
+
+.search_size{
+    height: 64px;
+}
+
+.img_container{
+    width: auto;
+    height: auto;
+}
+
+.dp_block{
+    display: block;
+}
+
+.marco{
+    border: 1px solid red;
+}
+
+.nav1_margin{
+    margin: 20px 80px;
+}
+
+.nav2_space{
+    margin: 35px 120px 0px 120px;
+}
+
+.no_txtdecoration{
+    text-decoration: none;
+}
+
+.no_padding{
+    padding: 0px;    
+}
+
+/*FUENTE*/
+@font-face {
+    font-family: newFont;
+    src: url(fonts/futura-normal_[allfont.es].ttf);
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(fonts/new_zelek_[allfont.es].ttf);
+}
+
+.new_font{
+    font-family: newFont;
+}
+
+.title_font{
+    font-family: titleFont;
+}
+
+/*ESTILOS*/
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+
+header{
+    width: 100%;
+    height: 250px;
+    background-image: url(img/sombra_03.png);
+    background-size: contain;
+}
+
+/*Navegador 1*/
+.nav{
+    width: 100%;
+    height: 15%;
+}
+
+nav ul{
+    list-style-type: none;  
+    margin: 0px;
+}    
+
+/*TITULO*/
+.header_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.titulo{
+    width: 300px;
+    height: 64px;
+    margin: 4px 2px 0px 1.8%;
+    font-family: titleFont;
+    font-size: 1.75rem;
+}
+
+#s_container{
+    width: 564px;
+    height: 64px;
+    display: flex;
+    margin: 4px 0 0 0;
+    border: 1px solid #d4d7d9;
+    border-radius: 2px 0 0 2px;
+}
+
+#c_input{
+    width: 500px;
+    height: 64px; 
+    background-color: #edeff1;
+    display: flex;
+    align-items: center;
+ }
+ 
+
+#s_input{
+    width: 100%;
+    height: 60%;
+    border: 0px;
+    padding: 11px 50px 11px 15px;
+    outline: none;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: #575859;
+    line-height: 26px;
+    background-color: #edeff1;
+}
+
+#c_icono{
+    width: 64px;
+    height: 64px;
+    border-left: 1px solid #d4d7d9;
+}
+
+#s_lupa{
+    width: 32px;
+    height: auto;
+}
+
+#i_container{
+    width: auto;
+    height: 64px;
+    margin-left: auto;
+    display: flex;
+}
+
+#i_container > div{
+    width: 72px;
+    height: 56px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#i_container div p{
+    margin: 0px;
+    font-size: 11px;
+}
+/*Cuerpo*/
+
+main{
+    flex-direction: column;    
+}
+
+#mapamundi{
+    width: 90%;
+    height: 600px;
+    background-image: url(img/mapamundi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cartas{
+    width: 90%;
+    height: 450px;
+    background-color: black;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 340px; 
+    justify-content: center;
+    column-gap: 5px;
+}
+
+#container > div{
+    color: white;
+    text-align: center;
+}
+
+#info nav ul{
+    list-style-type: none;  
+    padding: 0px;
+}
+
+#info nav ul li{
+    margin: 10px;
+    font-size: 15px;
+}
+
+#info h1{
+    font-size: 20px;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+}
+
+#footer{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+#footer > p{
+    margin: 0px;
+    width: 90%;
+    height: auto;
+}
+
+.terminos{
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.lorem{
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#creador{
+    padding-bottom: 30px;
+}
+
+#creador > p{
+    margin: 0px;
+    color: white;
+    font-size: 13px;
+}
+
+.epn_link{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#diseñador{
+    padding-top: 0px;
+}
+
+.spacer{
+    padding: 0px 5px;
+}
+
